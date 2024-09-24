@@ -1,0 +1,27 @@
+# Ultralytics YOLOv5 🚀, AGPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+path: ../datasets/
+train: images
+val: images
+
+# Classes
+names:
+ 0: bipolar_forceps
+ 1: needle_driver
+ 2: cadiere_forceps
+ 3: monopolar_curved_scissors
+ 4: vessel_sealer
+ 5: force_bipolar
+ 6: prograsp_forceps
+ 7: permanent_cautery_hook_spatula
+ 8: stapler
+ 9: grasping_retractor
+ 10: clip_applier
+ 11: tip_up_fenestrated_grasper
+ 12: other
